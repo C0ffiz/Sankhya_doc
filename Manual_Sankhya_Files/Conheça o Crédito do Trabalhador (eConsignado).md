@@ -1,0 +1,47 @@
+# Conheça o Crédito do Trabalhador (eConsignado)
+
+> 🔗 **Fonte:** [https://ajuda.sankhya.com.br/hc/pt-br/articles/30769824971031-Conhe%C3%A7a-o-Cr%C3%A9dito-do-Trabalhador-eConsignado](https://ajuda.sankhya.com.br/hc/pt-br/articles/30769824971031-Conhe%C3%A7a-o-Cr%C3%A9dito-do-Trabalhador-eConsignado)
+
+---
+
+# Conheça o Crédito do Trabalhador (eConsignado)
+
+```auto
+ Versão disponível: a partir da 5.31.0 (Pessoal+) / sanEsocial 3.11
+```
+
+O crédito do trabalhador eConsignado foi criado pelo governo para tornar mais acessível o empréstimo ao trabalhador com taxas reduzidas, oferecendo maior segurança tanto para os trabalhadores quanto para os bancos, pois, como as parcelas são descontadas diretamente da folha de pagamento, o risco de inadimplência diminui e, com a digitalização do processo por meio da Carteira de Trabalho Digital (CTPS Digital), a solicitação e aprovação do empréstimo se tornaram mais rápidas e seguras.
+
+Além disso, essa modalidade de empréstimo foi integrada ao eSocial para garantir que as empresas registrem e informem corretamente os valores descontados, seguindo as regras oficiais.
+
+O fluxo para **a solicitação do crédito eConsignado** ocorrerá da seguinte maneira:
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 22px;"><td style="height: 44px; text-align: center; vertical-align: middle; width: 67.875px;" rowspan="2"><img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310420831511" alt="simbolo-ctps.jpg" width="57" height="57"></td><td style="height: 22px; width: 609.125px;">&nbsp; 1. <strong>Colaborador</strong>:</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 609.125px;"><ul><li data-list-item-id="e6c76af9c9a3afab2feb8235ac4d3e101">acessa a CTPS Digital;</li><li data-list-item-id="e4c89226d2e418cd28fe406ccf6b23d22">simula o empréstimo;</li><li data-list-item-id="ed09f25f7b88108bc61050f2d909e1902">envia a proposta ao banco.</li></ul></td></tr></tbody></table>
+
+![seta-baixo-final.png](https://ajuda.sankhya.com.br/hc/article_attachments/30879791865495)
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 22px;"><td style="height: 44px; text-align: center; vertical-align: middle; width: 11.1429%;" rowspan="2"><img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310436783895" alt="banco-simbolo.png" width="57" height="57"></td><td style="height: 22px; width: 88.857%;">&nbsp;2.<strong> Banco</strong>:</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 88.857%;"><ul><li data-list-item-id="e94efe0535a7f0e31120a1756108414e5">analisa a proposta considerando a margem de consignação no eSocial;</li><li data-list-item-id="e66c1740efadc0d8305833c577e7bff86">aprova e faz o contrato do empréstimo.</li></ul></td></tr></tbody></table>
+
+![seta-baixo-final.png](https://ajuda.sankhya.com.br/hc/article_attachments/30879791865495)
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 22px;"><td style="height: 44px; text-align: center; vertical-align: middle; width: 11%;" rowspan="2"><img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310420833047" alt="empresa.simbolo.jpg" width="57" height="57"></td><td style="height: 22px; width: 88.9999%;">&nbsp;3. <strong>Empresa</strong>:</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 88.9999%;"><ul><li data-list-item-id="e513d43cb017175f7ab24378ea2c9666a">recebe a notificação do DET (Domicílio Eletrônico Trabalhista) para acessar o Portal Emprega Brasil;</li><li data-list-item-id="e033f4843b2c7e98a3cb0c550182775a7">no portal, consulta o extrato consolidado dos empréstimos consignados;</li><li data-list-item-id="ec6d411f6c500d565c84d101d1535b094">pode baixar o arquivo com os dados para realizar o lançamento do empréstimo na folha de pagamento do colaborador;</li><li data-list-item-id="e464e83b04a57fa9d95c8902446db817a">importa o arquivo no sistema;</li><li data-list-item-id="e10bd982800de557e89d03a73a27d9e31">realiza o cálculo da folha mensal ou rescisão com o desconto;</li><li data-list-item-id="e55ceded3e57a5ba7239530d9bcef952c">envia o evento correspondente ao desconto ao eSocial.</li></ul></td></tr></tbody></table>
+
+![seta-baixo-final.png](https://ajuda.sankhya.com.br/hc/article_attachments/30879791865495)
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 22px;"><td style="height: 44px; text-align: center; vertical-align: middle; width: 10.7143%;" rowspan="2"><img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310436785047" alt="esocial-simbolo.png" width="57" height="57"></td><td style="height: 22px; width: 89.2856%;">&nbsp;4. <strong>eSocial</strong>:</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 89.2856%;"><ul><li data-list-item-id="e23ae8fcf89a081aff146bc11990c8670">envio da rubrica com natureza 9253 e o código de FGTS 31 pelo evento S-1010;</li><li data-list-item-id="edc8a08ea6cf5873b0d8bea5c21464a97">envio do desconto da parcela do empréstimo através dos eventos S-1200/S-2299 ou S-2399.&nbsp;</li></ul><p><span style="color: #990099;"><strong>&nbsp; &nbsp; Nota:</strong></span> o eSocial Simplificado (MEI, Segurado Especial e Doméstico), o desconto ocorre automaticamente.</p></td></tr></tbody></table>
+
+![seta-baixo-final.png](https://ajuda.sankhya.com.br/hc/article_attachments/30879791865495)
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 22px;"><td style="height: 44px; text-align: center; vertical-align: middle; width: 10.7143%;" rowspan="2"><img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310420834839" alt="fgtsdigital-simbolo.jpg" width="57" height="43"></td><td style="height: 22px; width: 89.2856%;">&nbsp;5. <strong>Portal FGTS Digital</strong>:</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 89.2856%;"><ul><li data-list-item-id="e636704d435d3b824bd6ccadbece7b8cd">emite a GFD (Guia de Recolhimento Digital) mensal com os valores das parcelas dos empréstimos informadas ao eSocial;</li></ul><p>&nbsp; &nbsp; &nbsp;<img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310436791831" alt="Atenção FINAL.png"> A empresa deve pagar a GFD via PIX.</p></td></tr></tbody></table>
+
+![seta-baixo-final.png](https://ajuda.sankhya.com.br/hc/article_attachments/30879791865495)
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 22px;"><td style="height: 44px; text-align: center; vertical-align: middle; width: 10.5714%;" rowspan="2"><img src="https://ajuda.sankhya.com.br/hc/article_attachments/42310420836247" alt="caixa-simbolo.png" width="54" height="54"></td><td style="height: 22px; width: 89.4285%;">&nbsp;6. <strong>Caixa Econômica Federal</strong>:</td></tr><tr style="height: 22px;"><td style="height: 22px; width: 89.4285%;"><ul><li data-list-item-id="e022861d909bca59090fdbbe9ecec0f19">recebe o pagamento da GFD e repassa as parcelas aos bancos contratados.</li></ul></td></tr></tbody></table>
+
+No Pessoal+, a funcionalidade do crédito do Trabalhador (**eConsignado**) permite que o departamento pessoal registre esses empréstimos de forma estruturada, garantindo que os descontos sejam aplicados corretamente na folha de pagamento e enviados ao eSocial conforme as exigências legais.
+
+Acesse os links abaixo para conhecer as funcionalidades desta rotina.
+
+<table style="border-collapse: collapse;"><tbody><tr style="height: 20px;"><td style="height: 20px; width: 100%;"><a href="https://ajuda.sankhya.com.br/hc/pt-br/articles/35831517422871" target="_blank" rel="noopener noreferrer">Lançamento do Crédito do Trabalhador no Pessoal+</a></td></tr><tr style="height: 22px;"><td style="height: 22px; width: 100%;"><a href="https://ajuda.sankhya.com.br/hc/pt-br/articles/35647758894231" target="_blank" rel="noopener noreferrer">Como consultar a Tabela 37 – Instituições Financeiras para Empréstimo Consignado do eSocial</a></td></tr><tr><td style="width: 100%;"><a href="https://ajuda.sankhya.com.br/hc/pt-br/articles/35317056373911" target="_blank" rel="noopener noreferrer">Como emitir guia FGTS apenas com Crédito do Trabalhador</a></td></tr><tr><td style="width: 100%;"><a href="https://ajuda.sankhya.com.br/hc/pt-br/articles/34382673779735" target="_blank" rel="noopener noreferrer">Como consultar empréstimo Crédito do Trabalhador</a></td></tr><tr style="height: 15px;"><td style="height: 15px; width: 100%;"><a href="https://ajuda.sankhya.com.br/hc/pt-br/articles/35835468147735" target="_blank" rel="noopener noreferrer">FAQ -&nbsp;Dúvidas Frequentes</a></td></tr><tr style="height: 22px;"><td style="height: 22px; width: 100%;"><a href="https://ajuda.sankhya.com.br/hc/pt-br/articles/35679033606551" target="_blank" rel="noopener noreferrer">Mensagens de erros e advertências do Crédito do Trabalhador</a></td></tr></tbody></table>
+
+![acesse também FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/35835877312535) Para saber mais, acesse a [Documentação oficial sobre o Crédito do trabalhador](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/credito-do-trabalhador) e o [Manual Operacional do Empregador](https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/manual-e-documentacao-tecnica/manual-operacional-do-empregador-programa-credito-do-trabalhador-v2-16-05-25.pdf).

@@ -1,0 +1,20 @@
+# Cartórios
+
+> 🔗 **Fonte:** [https://ajuda.sankhya.com.br/hc/pt-br/articles/360044609054-Cart%C3%B3rios](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044609054-Cart%C3%B3rios)
+
+---
+
+# Cartórios
+
+![Módulo 36x36 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/42311338932631) **Módulo:** Imobiliária > Cadastros > Básicos  
+![Versão - 32x32 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/42311351781271) **Versão disponível:** a partir da 3.31
+
+---
+
+O Cadastro do Cartório é utilizado para informar onde o Parceiro possui firma registrada, ou seja, em qual Cartório estará registrado os [Loteamentos](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044609354), onde foram feitas as averbações e registros de imóvel caução, entre outros.
+
+![mceclip0.png](https://ajuda.sankhya.com.br/hc/article_attachments/360061936913)
+
+Primeiramente, insira uma **"Descrição"** para o Cartório cadastrado.
+
+Na aba **"Geral"** você pode vincular o **"Parceiro"**, bem como seu **"Telefone"** e qualquer **"Observação"** referente àquele Cadastro; na aba **"Localização"**, preencha as informações sobre o endereço completo do Cartório.

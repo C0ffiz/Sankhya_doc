@@ -1,0 +1,15 @@
+# Mudanças DIRF 2023
+
+> 🔗 **Fonte:** [https://ajuda.sankhya.com.br/hc/pt-br/articles/11709989981719-Mudan%C3%A7as-DIRF-2023](https://ajuda.sankhya.com.br/hc/pt-br/articles/11709989981719-Mudan%C3%A7as-DIRF-2023)
+
+---
+
+# Mudanças DIRF 2023
+
+O layout do arquivo DIRF para o ano calendário de 2022/2023 foi alterado, sendo assim, para a entrega do arquivo do ano vigente aqui informado, é necessário que a última versão do layout seja utilizada.
+
+Assim, é necessário atualizar o Sankhya Om para as versões **4.15b239**, **4.16b56** ou superiores que incluam as alterações de layout disponibilizados pela Receita Federal serem realizadas.
+
+Desse modo, para utilizar o novo layout, na tela [Geração do Arquivo DIRF](https://ajuda.sankhya.com.br/hc/pt-br/articles/360046692113-Gera%C3%A7%C3%A3o-do-Arquivo-DIRF#abageral), selecione a opção **"ARNZRXP"** do campo **"Identificador de estrutura do leiaute"** no registro da Empresa do arquivo a ser gerado:
+
+![opcao-tela-geracao-do-arquiv-dirf.png](https://ajuda.sankhya.com.br/hc/article_attachments/11709953408919)

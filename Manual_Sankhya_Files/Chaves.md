@@ -1,0 +1,54 @@
+# Chaves
+
+> 🔗 **Fonte:** [https://ajuda.sankhya.com.br/hc/pt-br/articles/360044608994-Chaves](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044608994-Chaves)
+
+---
+
+# Chaves
+
+![Módulo 36x36 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/42311326316567) **Módulo:** Imobiliária > Cadastros> Básicos   
+![Versão - 32x32 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/42311342980119) **Versão disponível:** a partir da 3.31
+
+---
+
+O objetivo dessa rotina é de registrar as Chaves do Imóvel que estão em poder da Imobiliária. Esse controle de Chaves é feito tanto por outras rotinas do Módulo de Prospecção, quanto manualmente, informando direto no controle o **"Local da chave"**, a **"Imobiliária"** ou o **"Corretor"**. Dessa forma, teremos na tela:
+
+<table style="border-collapse: collapse; width: 100%;"><tbody><tr><td style="width: 49.0476%;"><span style="font-family: Verdana,Geneva,Arial,sans-serif;"><a class="topiclink" href="#painelprincipal">Painel Principal</a></span></td><td style="width: 10.9047%;">&nbsp;</td><td style="width: 40.0476%;"><span style="font-family: Verdana,Geneva,Arial,sans-serif;"><a class="topiclink" href="#abageral">Aba Geral</a></span></td></tr><tr><td style="width: 49.0476%;"><span style="font-family: Verdana,Geneva,Arial,sans-serif;"><a class="topiclink" href="#par%C3%A2metrosqueinfluenciamessarotina">Parâmetros que influenciam essa rotina</a></span></td><td style="width: 10.9047%;">&nbsp;</td><td style="width: 40.0476%;">&nbsp;</td></tr></tbody></table>
+
+![mceclip0.png](https://ajuda.sankhya.com.br/hc/article_attachments/360061016134)
+
+## Painel Principal
+
+No campo **"Descrição da Chave"** insira um nome para aquela chave, geralmente indicando de qual porta da casa ela pertence, e o campo **"Código da Chave"** também deverá ser preenchido informando um número para identificar àquela Chave.
+
+[\[voltar ao topo\]](#top)
+
+## Aba Geral
+
+No campo **"Imóvel"** insira o imóvel a qual a chave pertence.
+
+Em relação ao campo **"Local da chave"**, esse permitirá visualizar em qual local a chave se encontra, de acordo com o processo em curso que a envolva.
+
+Caso a chave esteja fisicamente na Imobiliária, deve-se preencha o campo **"Imobiliária"**.
+
+Por outro lado, caso a chave esteja com um corretor, o campo **"Corretor"** deverá ser preenchido.
+
+**Observação:** os processos de solicitação e devolução de chaves poderão afetar tanto o campo Imobiliária quanto o campo Corretor.
+
+Quando a chave é solicitada em algum atendimento, o número deste atendimento é vinculado à chave através do campo **"FAC de solicitação"**.
+
+Por fim, o campo **"Última Solicitação"** exibirá a data da última vez que esta chave foi solicitada por um atendimento.
+
+[\[voltar ao topo\]](#top)
+
+## Parâmetros que influenciam essa rotina
+
+Quando o parâmetro **"Oculta chv Apres de Imóveis? - TIMOCULTCHV"** estiver habilitado, serão ocultadas as informações de chave na tela [Apresentação de Imóveis](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045117273).
+
+O parâmetro **"Status padrão para chave em visita - TIMCODSTATVISIT"** é utilizado para identificar qual o Local da Chave quando uma solicitação de visita for realizada para a chave em questão.
+
+Utilizaremos o parâmetro **"Status padrão para chave na imob - TIMCODSTATIMOB"** para identificar qual Local da Chave será utilizado quando a chave estiver com a Imobiliária.
+
+Em relação ao parâmetro **"Status padrão para chave reservada - TIMCODSTATRESER"**, este será usado para identificar qual Local da Chave será utilizado quando a chave for reservada.
+
+[\[voltar ao topo\]](#top)

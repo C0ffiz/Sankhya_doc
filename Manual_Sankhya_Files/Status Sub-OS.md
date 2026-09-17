@@ -1,0 +1,21 @@
+# Status Sub-OS
+
+> 🔗 **Fonte:** [https://ajuda.sankhya.com.br/hc/pt-br/articles/360044604894-Status-Sub-OS](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044604894-Status-Sub-OS)
+
+---
+
+# Status Sub-OS
+
+ **![Módulo](https://ajuda.sankhya.com.br/hc/article_attachments/42311213006999) Módulo:** Contratos e Serviços > Arquivos > Cadastros > Configurações Ordem de Serviço
+
+---
+
+Por meio desta rotina, tem-se a funcionalidade de realizar o cadastro de um ou mais Status de Sub-OS a serem apontados na aberta de uma nova Ordem de Serviço ou um novo item em uma Ordem de Serviço.
+
+![status\_sub\_os.png](https://ajuda.sankhya.com.br/hc/article_attachments/9216161350807)
+
+O campo **"Código"** pode ser alimentado de forma manual ou automática; esta definição é feita pelo botão ![coonfiguração](https://ajuda.sankhya.com.br/hc/article_attachments/15469562305815)  **"Configuração da Tela"**. Informa-se neste campo a chave do status no sistema, ou seja, esta numeração será responsável por identificá-lo em todas as rotinas em que ele estiver presente.
+
+Por meio do campo **"Descrição"** aponta-se um nome que identifique o status que está sendo cadastrado.
+
+**Observação:** essa rotina ficará visível quando existir na licença o módulo **"30660-ORDEM DE SERVIÇO /W"** ou o módulo **"30605-VENDA CONSULTIVA /W"**.

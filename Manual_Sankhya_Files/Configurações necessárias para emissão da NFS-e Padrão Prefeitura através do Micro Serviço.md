@@ -1,0 +1,99 @@
+# Configurações necessárias para emissão da NFS-e Padrão Prefeitura através do Micro Serviço
+
+> 🔗 **Fonte:** [https://ajuda.sankhya.com.br/hc/pt-br/articles/24102304335767-Configura%C3%A7%C3%B5es-necess%C3%A1rias-para-emiss%C3%A3o-da-NFS-e-Padr%C3%A3o-Prefeitura-atrav%C3%A9s-do-Micro-Servi%C3%A7o](https://ajuda.sankhya.com.br/hc/pt-br/articles/24102304335767-Configura%C3%A7%C3%B5es-necess%C3%A1rias-para-emiss%C3%A3o-da-NFS-e-Padr%C3%A3o-Prefeitura-atrav%C3%A9s-do-Micro-Servi%C3%A7o)
+
+---
+
+# Configurações necessárias para emissão da NFS-e Padrão Prefeitura através do Micro Serviço
+
+ ![Versão - 32x32 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/42310508581911) **Versão disponível:** a partir da 4.23B212
+
+---
+
+Neste artigo serão apresentadas as etapas para a integração com Parceiros que realizam a emissão da NFS-e via Micro Serviço. 
+
+<table style="border-collapse: collapse; width: 100%; height: 90px;" border="1"><tbody><tr style="height: 24px;"><td style="width: 100%; height: 24px;"><h4 id="h_01J03JJ88DN9J6VESJE8P90Q13" class="wysiwyg-text-align-center"><span class="wysiwyg-color-black70"><strong>Configurações e telas envolvidas</strong></span></h4></td></tr><tr style="height: 22px;"><td style="width: 100%; height: 22px;"><span class="wysiwyg-color-black70" style="color: #333333; background-color: #ffffff;">&nbsp;<a href="#Emiss%C3%A3odaNotaFiscaldeServi%C3%A7oEletr%C3%B4nicaviaMicroServi%C3%A7oConfigura%C3%A7%C3%B5es">Emissão da Nota Fiscal de Serviço Eletrônica via Micro Serviço - Configurações</a></span></td></tr><tr style="height: 22px;"><td style="width: 100%; height: 22px;"><span class="wysiwyg-color-black70" style="color: #333333; background-color: #ffffff;">&nbsp;<a href="#Emiss%C3%A3odaNotaFiscaldeServi%C3%A7oEletr%C3%B4nicaPadr%C3%A3oNacionalviaMicroServi%C3%A7o">Emissão da Nota Fiscal de Serviço Eletrônica Padrão Nacional via Micro Serviço</a></span></td></tr><tr><td style="width: 100%;"><span class="wysiwyg-color-black70" style="color: #333333; background-color: #ffffff;">&nbsp;<a href="#Gera%C3%A7%C3%A3odoJSONProcessado">Geração do JSON Processado</a><br></span></td></tr><tr style="height: 22px;"><td style="width: 100%; height: 22px;"><span class="wysiwyg-color-black70" style="color: #333333; background-color: #ffffff;">&nbsp;<a href="#Artigosrelacionados">Artigos relacionados</a></span></td></tr></tbody></table>
+
+---
+
+### **Emissão da Nota Fiscal de Serviço Eletrônica via Micro Serviço - Configurações**
+
+ ![essencial FINAL (1).png](https://ajuda.sankhya.com.br/hc/article_attachments/25334215991831) As empresas dos municípios implementados via Micro Serviço devem solicitar o credenciamento da empresa com o time de atendimento.
+
+![1 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/24102320828951) No cadastro de [Empresas](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045112913-Cadastro-de-Empresas), na aba [Naturezas](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045112913-Cadastro-de-Empresas#abanaturezas), realize os ajustes abaixo:
+
+*   No campo **"Cód. Regime Tribut."** escolha a opção relacionada ao regime tributário da empresa;
+*   Caso ela seja optante pelo Simples Nacional, selecione a opção que mais se enquadra na situação do contribuinte no campo **"Tipo de Partilha/Anexo SN"**.
+
+![Aba-natureza-empresa.png](https://ajuda.sankhya.com.br/hc/article_attachments/24127758086679)
+
+Caso o município suporte a substituição ou o cancelamento de notas via webservice, siga as orientações:
+
+![2 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/24102304299927) Na tela [Cidades](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045110913-Cidades), selecione as cidades a serem utilizadas na emissão e acione a marcação **"Tem substituição NFS-e"** da aba [NFS-e](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045110913-Cidades#abanfs-e).
+
+Ainda na aba acima, configure o campo **"Tipo de Cancelamento para NFS-e"** e cadastre o **"Tipo"**, **"Código"**, **"Motivo/Descrição"** e **"Enviar à prefeitura"**, conforme definido pelo manual.
+
+![NFS-e.png](https://ajuda.sankhya.com.br/hc/article_attachments/24102304303639)
+
+![3 FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/24102304305687) Em [Preferências da Empresa](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045114893-Prefer%C3%AAncias-da-Empresa), aba [Documentos Fiscais Eletrônicos](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045114893-Prefer%C3%AAncias-da-Empresa#abaDocumentosFiscaisEletr%C3%B4nicos), sub-aba [NFS-e](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045114893-Prefer%C3%AAncias-da-Empresa#Sub-abaNFS-e) > [Geral](https://ajuda.sankhya.com.br/hc/pt-br/articles/360045114893-Prefer%C3%AAncias-da-Empresa#Sub-abaGeralSub-abaNFS-e) configure conforme as regras do município da empresa. 
+
+Para isso, se atente as configurações da seção **"Credenciais de Login de Prefeitura"**, caso a emissão da NFS-e seja por usuário e senha, estes deverão ser informados nessa sessão, como: token, frase de segurança, entre outros.
+
+**Nota**: o botão ![Botão configurar credenciais FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/24127798589847) **"Configurar Credenciais"** só estará visível para as prefeituras já contempladas no micro serviço.
+
+![seção credenciais de login de prefeitura.jpg](https://ajuda.sankhya.com.br/hc/article_attachments/24102304316567)
+
+Assim, ao clicar no botão Configurar Credenciais será apresentado o pop-up **"Credenciais de login da prefeitura"** onde os dados já cadastradas para gerar as credenciais serão apresentados e utilizadas para a emissão das NFS-e's junto à Prefeitura da cidade.
+
+![dica FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/24102320859031) Lembre-se que, caso não possua as informações das credenciais, deverá procurar o contador de sua empresa ou sua Prefeitura.
+
+![pop up credenciais da prefeitura.jpg](https://ajuda.sankhya.com.br/hc/article_attachments/24102304322199)
+
+Caso o campo **"Cód. Regime Tribut."** do cadastro de Empresas, aba Naturezas, esteja configurado com a opção **"Regime Normal"**, selecione o **"Tipo de Regime"** que a empresa faça parte, podendo ser **"Lucro Presumido"** ou **"Lucro Real"**.
+
+**Nota:** esse campo estará visível somente quando o campo Cód. Regime Tribut. estiver configurado com a opção Regime Normal.
+
+Confira todas as informações e dados do Certificado Digital, e acione o botão ![botão confirmar - prefeitura. FINAL.jpg](https://ajuda.sankhya.com.br/hc/article_attachments/24104061535255) **"Confirmar"**.
+
+Neste momento será efetuada uma validação das informações da Empresa, como: informações de login e informações do certificado digital válido para o CNPJ da empresa selecionada na tela.
+
+Caso apresente alguma inconsistência no cadastro, o sistema exibirá mensagens de aviso, informando qual o erro encontrado.
+
+Tendo concluído a configuração, será apresentada a seguinte mensagem:
+
+_**“Suas informações foram validadas e você está pronto para emitir NFS-e!”**_
+
+E o campo **"Status"** será alterado para **"Credenciais Configuradas"**.
+
+[\[voltar ao topo\]](#top)
+
+### **Emissão da Nota Fiscal de Serviço Eletrônica Padrão Nacional via Micro Serviço  
+**
+
+Para configurar a emissão de notas no padrão nacional via Micro Serviço, acesse o artigo [Emissão da Nota Fiscal de Serviço Eletrônica Padrão Nacional via Micro Serviço](https://ajuda.sankhya.com.br/hc/pt-br/articles/22378207317783-Emiss%C3%A3o-da-Nota-Fiscal-de-Servi%C3%A7o-Eletr%C3%B4nica-Padr%C3%A3o-Nacional-via-Micro-Servi%C3%A7o).
+
+[\[voltar ao topo\]](#top)
+
+### **Geração do JSON Processado  
+**
+
+O JSON processado é utilizado para auxiliar na verificação das informações integradas com a prefeitura por meio de um Micro Serviço. 
+
+Para gerar o JSON processado, acesse o [Portal de Vendas](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044612654), clique no botão **"NFS-e"** e selecione a opção **"Baixar JSON Processado"** para realizar o download do arquivo JSON. 
+
+[\[voltar ao topo\]](#top)
+
+### **Artigos relacionados**
+
+  **![acesse também FINAL.png](https://ajuda.sankhya.com.br/hc/article_attachments/24102320862359)**Para mais informações acesse os seguintes artigos:
+
+*   [Configurações gerais para NFS-e](https://ajuda.sankhya.com.br/hc/pt-br/articles/360047599473-Configura%C3%A7%C3%B5es-gerais-para-NFS-e);
+*   [Nota Fiscal Eletrônica de Serviço - Prefeituras](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044603434-Nota-Fiscal-Eletr%C3%B4nica-de-Servi%C3%A7o-Prefeituras);
+*   [Funcionalidades relacionadas à NFS-e](https://ajuda.sankhya.com.br/hc/pt-br/articles/360046972414-Funcionalidades-relacionadas-%C3%A0-NFS-e%C2%A0);
+*   [Cancelamento de NFS-e Prefeituras que não possuem o processo via webservices](https://ajuda.sankhya.com.br/hc/pt-br/articles/360046972414-Funcionalidades-relacionadas-%C3%A0-NFS-e#cancelamentodenfs-e-prefeiturasquenopossuemoprocessoviawebservices); 
+*   [Informações Complementares](https://ajuda.sankhya.com.br/hc/pt-br/articles/360046970974-Informa%C3%A7%C3%B5es-Complementares%C2%A0);
+*   [Modelo de impressão de Nota Fiscal Eletrônica de Serviço](https://ajuda.sankhya.com.br/hc/pt-br/articles/13309860712087-Nota-Fiscal-Eletr%C3%B4nica-de-Servi%C3%A7os-NFS-e%C2%A0);
+*   [Nota Fiscal Eletrônica de Serviço - Prefeituras](https://ajuda.sankhya.com.br/hc/pt-br/articles/360044603434-Nota-Fiscal-Eletr%C3%B4nica-de-Servi%C3%A7o-Prefeituras#Especifica%C3%A7%C3%B5esporPrefeituras%C2%A0);
+*   [Emissão da Nota Fiscal de Serviço Eletrônica Padrão Nacional via Micro Serviço](https://ajuda.sankhya.com.br/hc/pt-br/articles/22378207317783-Emiss%C3%A3o-da-Nota-Fiscal-de-Servi%C3%A7o-Eletr%C3%B4nica-Padr%C3%A3o-Nacional-via-Micro-Servi%C3%A7o).
+
+[\[voltar ao topo\]](#top)

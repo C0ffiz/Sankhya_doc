@@ -1,0 +1,324 @@
+# Sankhya Developer Documentation
+
+> Documentation for Sankhya Developer
+
+## Guias: Sankhya Developer
+- [Conhecendo o portal Sankhya Developer](https://developer.sankhya.com.br/docs/conhecendo-o-portal.md): Explore todo o potencial do portal para aprender, tirar dúvidas e resolver problemas!
+- [Comunidade](https://developer.sankhya.com.br/docs/comunidade.md)
+- [Portal do Desenvolvedor Sankhya](https://developer.sankhya.com.br/docs/portal-do-desenvolvedor.md)
+- [Como obter acesso ao Portal do Desenvolvedor como Desenvolvedor Externo](https://developer.sankhya.com.br/docs/como-obter-acesso-como-desenvolvedor-externo.md): E o que o cliente deve fazer para conceder acesso as soluções para desenvolvedores externos
+- [Cliente Sankhya: Como obter acesso ao Portal do Desenvolvedor](https://developer.sankhya.com.br/docs/cliente-sankhya-como-obter-acesso-ao-portal-do-desenvolvedor.md)
+- [Como criar uma solução de uso exclusivo do cliente](https://developer.sankhya.com.br/docs/criar-uma-solucao-de-uso-exclusivo-do-cliente.md)
+- [Gerenciar versões de um Add-on](https://developer.sankhya.com.br/docs/versoes-de-um-add-on.md)
+- [Instalar e gerenciar soluções no Sankhya Om](https://developer.sankhya.com.br/docs/minhas-solucoes.md): Entenda as funções da nova tela no Sankhya Om chamada Minhas soluções
+- [Marketplace](https://developer.sankhya.com.br/docs/marketplace.md)
+  - [Como cadastrar uma solução no Marketplace via Portal do Desenvolvedor](https://developer.sankhya.com.br/docs/como-cadastrar-uma-solucao-no-marketplace-via-portal-do-desenvolvedor.md)
+
+## Guias: Tech Academy
+- [Specialist Add-ons](https://developer.sankhya.com.br/docs/specialist-extensões.md)
+- [Specialist Relatórios Formatados](https://developer.sankhya.com.br/docs/specialist-relatorios-formatados.md)
+- [Specialist Dashboards](https://developer.sankhya.com.br/docs/specialist-dashboards.md)
+- [Specialist Plataforma de Personalizações](https://developer.sankhya.com.br/docs/specialist-plataforma-de-personalizacoes.md)
+
+## Guias: ADDON STUDIO
+- [Add-on Studio](https://developer.sankhya.com.br/docs/add-on-studio.md): Introdução geral ao Add-on Studio, o ambiente de desenvolvimento integrado para criar extensões.
+- [Configuração Inicial do Add-on Studio](https://developer.sankhya.com.br/docs/configuracao-inicial.md)
+  - [🛠️ Configurando o Ambiente de Desenvolvimento](https://developer.sankhya.com.br/docs/01_ambiente.md): Tutorial passo a passo para configurar o ambiente de desenvolvimento local.
+  - [⚙️ Configurando o Projeto do Add-on Studio](https://developer.sankhya.com.br/docs/03_conf_addonstudio.md): Guia para configurar o `build.gradle`, dependências, variáveis de ambiente e boas práticas iniciais.
+  - [🧪 Testando e Publicando seu Add-on](https://developer.sankhya.com.br/docs/04_deploy_testes_locais.md)
+- [📂 Estrutura de um Projeto Add-on Studio](https://developer.sankhya.com.br/docs/03_estrutura-do-projeto.md): Explica a organização padrão dos arquivos e diretórios em um projeto de add-on.
+- Features
+  - [📂 Dicionário de Dados (Data Dictionary)](https://developer.sankhya.com.br/docs/01_dicionario-de-dados.md): Explica como definir a estrutura de dados (tabelas, campos, entidades) do add-on usando o arquivo `metadados.xml`.
+    - [📦 Auto DDL: Geração Automática de Tabelas](https://developer.sankhya.com.br/docs/02_autoddl.md): Focado na feature `autoddl`, que automatiza a criação e atualização de tabelas no banco de dados com base no `metadados.xml`.
+    - [📜 Formulários Dinâmicos (Dynamic Forms)](https://developer.sankhya.com.br/docs/03_dynamicform.md): Guia para criar formulários dinâmicos que se adaptam conforme os dados, usando o dicionário de dados.
+    - [🌳 Tabela Hierárquica (`treeTable`)](https://developer.sankhya.com.br/docs/04_tabela_hierarquica.md): Como criar tabelas hierárquicas (com estrutura de árvore) em telas customizadas.
+    - [🔍 Criando Filtros para Formulários](https://developer.sankhya.com.br/docs/05_filtros.md): Como adicionar filtros customizados em formulários dinâmicos.
+    - [🗂️ Menus Personalizados](https://developer.sankhya.com.br/docs/06_menu.md): Guia para criar menus customizados na interface do Sankhya.
+    - [💻 Telas Personalizadas (UI)](https://developer.sankhya.com.br/docs/07_telas.md)
+  - [📜 Schema de Banco de Dados (DBScripts)](https://developer.sankhya.com.br/docs/02_scripts.md): Guia para criação de schema de banco de dados (`V1.xml`, `V2.xml`) para cenários não cobertos pelo Auto DDL, como criação de views, triggers ou migrações de dados.
+  - [📦 Parâmetros Embarcados no Add-on](https://developer.sankhya.com.br/docs/03_parameter.md): Como criar parâmetros de sistema configuráveis para o add-on.
+  - [📊 Dashboards Embarcados](https://developer.sankhya.com.br/docs/04_dashboard.md): Guia para criar dashboards customizados na interface do Sankhya.
+  - [🔘 Botão de Ação](https://developer.sankhya.com.br/docs/05_action_button.md): Como adicionar botões de ação customizados em formulários e telas nativas
+  - [📜 Regras de Negócio](https://developer.sankhya.com.br/docs/06_business_rules.md): Guia para criar regras de negócio que disparam ações automáticas com base em eventos do sistema.
+  - [🎧 Listeners: Reagindo a Eventos de Persistência](https://developer.sankhya.com.br/docs/07_listeners.md): Guia para criar listeners que reagem a eventos de persistência (ex: após inserir um registro).
+  - [📞 Callbacks: Reagindo a Eventos de Documentos](https://developer.sankhya.com.br/docs/08_callback.md): Como usar callbacks para executar lógica customizada em resposta a eventos (ex: antes de salvar um pedido).
+  - [🎮 A Camada de Serviço (`@Service`)](https://developer.sankhya.com.br/docs/09_service.md)
+  - [🕒 Jobs Agendados com `@Job`](https://developer.sankhya.com.br/docs/jobs-agendados-com-job.md)
+  - [🚀 Introdução ao SDK Sankhya](https://developer.sankhya.com.br/docs/introducao-sdk-sankhya.md)
+    - [🎯 Conceitos Fundamentais](https://developer.sankhya.com.br/docs/conceitos-fundamentais.md)
+    - [🚀 Getting Started: Seu Primeiro Serviço com o SDK](https://developer.sankhya.com.br/docs/iniciando.md)
+    - [🎮 Camada de Controller (`@Controller`)](https://developer.sankhya.com.br/docs/camada-de-controller-controller.md)
+    - [🕒 Jobs Agendados](https://developer.sankhya.com.br/docs/job.md)
+    - [🛡️ Validação de Dados com Bean Validation](https://developer.sankhya.com.br/docs/bean-validation.md)
+    - [🔧 Injeção de Dependências (DI)](https://developer.sankhya.com.br/docs/injecao-de-dependencias.md)
+    - [🔗 Controle Transacional](https://developer.sankhya.com.br/docs/controle-transacional.md)
+    - [🗄️Mapeamento Objeto-Relacional (ORM)](https://developer.sankhya.com.br/docs/mapeamento-relacional.md)
+    - [🗃️ A Camada de Repositório (`@Repository`)](https://developer.sankhya.com.br/docs/repositorio-dados.md)
+    - [🗺️ Mapeamento de Objetos com MapStruct](https://developer.sankhya.com.br/docs/️mapeamento-de-objetos-com-mapstruct.md)
+    - [🗺️ Adaptadores de Tipos](https://developer.sankhya.com.br/docs/️-adaptadores-de-tipos.md)
+    - [📡Serviço de Logs Remotos](https://developer.sankhya.com.br/docs/serviço-de-logs-remotos.md)
+    - [💉 Injeção de Valores (`@Value`)](https://developer.sankhya.com.br/docs/injeção-de-valores-value.md)
+    - [🛡️ Tratamento Global de Exceções (`@ControllerAdvice`)](https://developer.sankhya.com.br/docs/11_controller_advice.md)
+    - [🔄 AutoDD: Geração Automática do Dicionário de Dados (Data Dictionary)](https://developer.sankhya.com.br/docs/autodd-geração-automática-do-dicionário-de-dados-data-dictionary.md)
+    - [🔗 Foreign Keys Compostas](https://developer.sankhya.com.br/docs/foreign-keys-compostas.md)
+    - [🔄 MacroTranslator: Documentação de Macros Sankhya](https://developer.sankhya.com.br/docs/macrotranslator-documentação-de-macros-sankhya.md)
+    - [🔍 Interceptando Buscas com `@BeforeLoadListener`](https://developer.sankhya.com.br/docs/interceptando-buscas-com-beforeloadlistener.md)
+    - [🧩 Merge-on-root: estendendo uma tabela sem adicionar campos nela](https://developer.sankhya.com.br/docs/merge-on-root-estendendo-uma-tabela-sem-adicionar-campos-nela.md): O merge-on-root estende uma entidade com os campos de outra tabela, sem criar nenhuma coluna na tabela estendida. Os campos ficam numa tabela de extensão ligada à entidade raiz por um relacionamento…
+  - [Boas Práticas de Logging](https://developer.sankhya.com.br/docs/boas-práticas-de-logging.md)
+- Migrando Addons Legados
+  - [Migração DWF para o Add-on Studio](https://developer.sankhya.com.br/docs/migrando-extensoes-que-usam-o-dwf-para-o-add-on-studio.md)
+- [Guia de Boas Práticas para Desenvolvimento de Add-ons](https://developer.sankhya.com.br/docs/guia-de-boas-praticas.md)
+  - [Perguntas Frequentes](https://developer.sankhya.com.br/docs/faq.md)
+
+## Guias: Personalização e Customização
+- [Tipos de Personalização/Customização](https://developer.sankhya.com.br/docs/tipos_de_personalizacao.md)
+- Relatórios Formatados
+  - [Propriedades de Parâmetros do iReport](https://developer.sankhya.com.br/docs/propriedades-de-parametros-do-ireport.md)
+
+## Guias: Frameworks, APIs e Ferramentas
+- [Dicionário de Dados](https://developer.sankhya.com.br/docs/dicionário-de-dados.md)
+- [SankhyaJS (HTML5)](https://developer.sankhya.com.br/docs/sankhya-js.md)
+- [Tabelas de Operações Comerciais (Compras/Vendas)](https://developer.sankhya.com.br/docs/operacoes-comerciais.md)
+
+## Documentação API: GUIA DE INTEGRAÇÃO
+- [Guia de Integração com o Sankhya Om](https://developer.sankhya.com.br/reference/guia-integracao.md)
+- [API de Serviços Gateway](https://developer.sankhya.com.br/reference/api-de-integrações-sankhya.md)
+  - [Camada de autorização para API](https://developer.sankhya.com.br/reference/camada-de-autorização-para-api.md)
+  - [Requisições via Gateway](https://developer.sankhya.com.br/reference/requisições-via-gateway.md)
+  - [Mapeamento de serviços](https://developer.sankhya.com.br/reference/mapeamento-de-serviço.md)
+  - [Boas Práticas para Integração](https://developer.sankhya.com.br/reference/boas-práticas-para-integração.md)
+  - [Códigos de Retorno da API](https://developer.sankhya.com.br/reference/códigos-de-retorno-da-api.md)
+  - [FAQ](https://developer.sankhya.com.br/reference/faq-1.md)
+- [Como Iniciar uma Integração com a Sankhya?](https://developer.sankhya.com.br/reference/como-iniciar-uma-integracao-com-a-sankhya.md)
+  - [Concedendo Acesso a Área do Desenvolvedor para Colaboradores](https://developer.sankhya.com.br/reference/concedendo-acesso-a-colaboradores.md)
+  - [Gerando Tokens de Integração no SankhyaOm](https://developer.sankhya.com.br/reference/gerando-tokens-de-integração-no-sankhyaom.md)
+- [Guia de Conversão do Componente de Integração (AppKey → OAuth2)](https://developer.sankhya.com.br/reference/guia-de-conversao-do-componente-de-integracao-appkey-oauth2.md)
+
+## Documentação API: API Sankhya
+- Autenticação
+  - [Autenticação com usuário e senha (fluxo legado/descontinuado)](https://developer.sankhya.com.br/reference/post_login-1.md): Este serviço de login corresponde ao modelo de autenticação legado/descontinuado, que utiliza usuário e senha do SankhyaID, em conjunto com as chaves appkey e token.  Embora ainda esteja disponível…
+  - [Autenticação com OAuth 2.0 (Client Credentials)](https://developer.sankhya.com.br/reference/post_authenticate.md): Este serviço implementa o fluxo **OAuth 2.0 Client Credentials**, com uso adicional do cabeçalho `X-Token`. Ele substitui o modelo antigo baseado em **appkey + token** e oferece maior segurança e…
+- Cadastros Básicos
+  - [Lista de Naturezas](https://developer.sankhya.com.br/reference/get_v1-naturezas.md): Retorna a lista de Naturezas, com paginação, cadastradas no SankhyaOM.
+  - [Lista de Centros de Resultado](https://developer.sankhya.com.br/reference/get_v1-centros-resultado.md): Retorna a lista de Centro de Resultado, com paginação, cadastradas no SankhyaOM.
+  - [Natureza Específica](https://developer.sankhya.com.br/reference/get_v1-naturezas-codigonatureza.md): Retorna uma Natureza específica com base no parâmetro enviado na requisição.
+  - [Lista de Tipos de Operação](https://developer.sankhya.com.br/reference/get_v1-tipos-operacao.md): Retorna a lista de Tipos de Operação, com paginação, cadastradas no SankhyaOM.
+  - [Centro de Resultado Específico](https://developer.sankhya.com.br/reference/get_v1-centros-resultado-codigocentroresultado.md): Retorna um Centro de Resultado específico com base no parâmetro enviado na requisição.
+  - [Lista de Projetos](https://developer.sankhya.com.br/reference/get_v1-projetos.md): Retorna a lista de Projetos, com paginação, cadastradas no SankhyaOM.
+  - [Projeto Específico](https://developer.sankhya.com.br/reference/get_v1-projetos-codigoprojeto.md): Retorna um Projeto específico com base no parâmetro enviado na requisição.
+  - [Tipo de Operação Específico](https://developer.sankhya.com.br/reference/get_v1-tipos-operacao-codigotipooperacao.md): Retorna um Tipo de Operação específico com base no parâmetro enviado na requisição.
+  - [Lista de Vendedores](https://developer.sankhya.com.br/reference/get_v1-vendedores.md): Retorna uma lista de Vendedores, com paginação, cadastrados no SankhyaOM.
+  - [Vendedor específico](https://developer.sankhya.com.br/reference/get_v1-vendedores-codigovendedor.md): Retorna um Vendedor específico com base no parâmetro enviado na requisição.
+  - [Lista de Usuários](https://developer.sankhya.com.br/reference/get_v1-usuarios.md): Retorna uma lista de Usuários, com paginação, cadastradas no SankhyaOM.
+  - [Usuário específico](https://developer.sankhya.com.br/reference/get_v1-usuarios-codigousuario.md): Retorna um Usuário específico com base no parâmetro enviado na requisição.
+  - [Lista de Regiões](https://developer.sankhya.com.br/reference/get_v1-regioes.md): Retorna uma lista de Regiões, com paginação, cadastradas no SankhyaOM.
+  - [Região específica](https://developer.sankhya.com.br/reference/get_v1-regioes-codigoregiao.md): Retorna um Região específica com base no parâmetro enviado na requisição.
+  - [Lista de Cidades](https://developer.sankhya.com.br/reference/get_v1-cidades.md): Retorna uma lista de Cidades, com paginação, cadastradas no SankhyaOM.
+  - [Cidade específica](https://developer.sankhya.com.br/reference/get_v1-cidades-codigocidade.md): Retorna uma Cidade específica com base no parâmetro enviado na requisição.
+  - [Lista de Logradouros](https://developer.sankhya.com.br/reference/get_v1-logradouros.md): Retorna uma lista de Logradouros, com paginação, cadastradas no SankhyaOM.
+  - [Logradouro específico](https://developer.sankhya.com.br/reference/get_v1-logradouros-codigologradouro.md): Retorna um Logradouro específico com base no parâmetro enviado na requisição.
+  - [Lista de Bairros](https://developer.sankhya.com.br/reference/get_v1-bairros.md): Retorna uma lista de Bairros, com paginação, cadastradas no SankhyaOM.
+  - [Bairro específico](https://developer.sankhya.com.br/reference/get_v1-bairros-codigobairro.md): Retorna um Bairro específico com base no parâmetro enviado na requisição.
+  - [Lista de Veículos](https://developer.sankhya.com.br/reference/get_v1-veiculos.md): Retorna uma lista de Veículos ativos e inativos, com paginação, cadastradas no SankhyaOM.
+  - [Veículo específico](https://developer.sankhya.com.br/reference/get_v1-veiculos-codigoveiculo.md): Retorna um Veículo específico com base no parâmetro enviado na requisição.
+  - [Lista de Empresas](https://developer.sankhya.com.br/reference/get_v1-empresas.md): Retorna uma lista de Empresas, com paginação, cadastradas no SankhyaOM.
+  - [Empresa específica](https://developer.sankhya.com.br/reference/get_v1-empresas-codigoempresa.md): Retorna uma empresa específica com base no parâmetro enviado na requisição.
+- Clientes
+  - [Retornar lista de clientes](https://developer.sankhya.com.br/reference/getcliente.md): Permite acessar a lista de clientes cadastrados no ERP. A resposta da API contém apenas os clientes ativos ou inativos que já foram cadastrados previamente no ERP.
+  - [Incluir cliente](https://developer.sankhya.com.br/reference/postcliente.md): Permite incluir um cliente no ERP.
+  - [Incluir contatos para o cliente](https://developer.sankhya.com.br/reference/postcontato.md): Permite incluir um contato para um cliente já cadastrado.
+  - [Atualizar cliente](https://developer.sankhya.com.br/reference/putcliente.md): Permite atualizar um cliente previamente cadastrado.
+  - [Atualizar contato do cliente](https://developer.sankhya.com.br/reference/putcontatocliente.md): Permite atualizar um contato de um cliente previamente cadastrado
+- Estoque
+  - [Obter dados de estoque de um produto](https://developer.sankhya.com.br/reference/getestoqueporproduto.md): - Este serviço verifica apenas o estoque registrado no ERP Sankhya, sem considerar o estoque do WMS. - Ele leva em conta apenas o estoque próprio da empresa, ignorando produtos armazenados por…
+  - [Obter dados de estoque de vários produtos](https://developer.sankhya.com.br/reference/getestoqueprodutos.md): - Permite obter o estoque de vários produtos. - Este serviço verifica apenas os estoques registrado no ERP Sankhya, sem considerar os estoques do WMS. - Ele leva em conta apenas os estoques próprio…
+  - [Lista de Locais de Estoque](https://developer.sankhya.com.br/reference/get_v1-estoque-locais.md): Retorna uma lista de Locais de Estoque, com paginação, cadastradas no SankhyaOM.
+  - [Local de Estoque específico](https://developer.sankhya.com.br/reference/get_v1-estoque-locais-codigolocal.md): Retorna um Local de Estoque específico com base no parâmetro enviado na requisição.
+- Financeiros Cadastros
+  - [Lista de Tipos de Pagamentos](https://developer.sankhya.com.br/reference/get_v1-financeiros-tipos-pagamento.md): Retorna a lista de Tipos de Pagamento (Tipos de Títulos), com paginação, cadastradas no SankhyaOM.
+  - [Tipo de Pagamento específico](https://developer.sankhya.com.br/reference/get_v1-financeiros-tipos-pagamento-codigotipopagamento.md): Retorna um Tipo de Pagamento específico com base no parâmetro enviado na requisição.
+  - [Lista de Moedas](https://developer.sankhya.com.br/reference/get_v1-financeiros-moedas.md): Retorna a lista de Moedas, com paginação, cadastradas no SankhyaOM.
+  - [Moeda Específica](https://developer.sankhya.com.br/reference/get_v1-financeiros-moedas-codigomoeda.md): Retorna uma Moeda específica com base no parâmetro enviado na requisição.
+  - [Lista de Cotações de Moedas](https://developer.sankhya.com.br/reference/get_v1-financeiros-moedas-codigomoeda-cotacoes.md): Retorna uma lista de cotações da moeda enviada no contexto, com paginação, cadastradas no SankhyaOM.
+  - [Lista de Bandeiras TEF](https://developer.sankhya.com.br/reference/get_v1-financeiros-bandeiras-tef.md): Retorna a lista de Bandeiras TEF, com paginação, cadastradas no SankhyaOM.
+  - [Lista de Redes (Adquirentes) TEF](https://developer.sankhya.com.br/reference/get_v1-financeiros-redes-tef.md): Retorna a lista de Redes (Adquirentes) TEF, com paginação, cadastradas no SankhyaOM.
+  - [Lista de Contas Bancárias](https://developer.sankhya.com.br/reference/get_v1-financeiros-contas-bancaria.md): Retorna uma lista de Conta Bancária, com paginação, cadastradas no SankhyaOM.
+  - [Conta Bancária Específica](https://developer.sankhya.com.br/reference/get_v1-financeiros-contas-bancaria-codigocontabancaria.md): Retorna uma Conta Bancária específica com base no parâmetro enviado na requisição.
+- Financeiros Movimentos
+  - [Obter Receitas](https://developer.sankhya.com.br/reference/getfinanceiros.md): Endpoint `GET /v1/financeiros/receitas` - Fornece acesso aos dados financeiros de receitas cadastrados no SankhyaOM, com suporte a ordenação dinâmica via parâmetro sort. A paginação é controlada…
+  - [Registrar Receitas](https://developer.sankhya.com.br/reference/incluirfinanceiroreceita.md): Registra financeiro de receita
+  - [Atualizar Receitas](https://developer.sankhya.com.br/reference/atualizarfinanceiroreceita.md): Endpoint `PUT /v1/financeiros/receitas/{codigoFinanceiro}` - Atualiza os dados financeiros de receitas cadastrados no SankhyaOM.
+  - [Realiza Baixa de Receitas](https://developer.sankhya.com.br/reference/baixarfinanceiroreceita.md): Realiza a baixa de um título financeiro. O campo dataBaixa é obrigatório. Caso codigoContaBancaria não seja informado: - se existir apenas uma conta válida, ela será utilizada automaticamente; - se…
+  - [Obter Despesas](https://developer.sankhya.com.br/reference/getfinanceirosdespesas.md): Endpoint `GET /v1/financeiros/despesas` - Fornece acesso aos dados financeiros de despesas lançados no SankhyaOM, com suporte a ordenação dinâmica via parâmetro sort. A paginação é controlada…
+  - [Registrar Despesas](https://developer.sankhya.com.br/reference/incluirfinanceirodespesa.md): Registra financeiro de despesa
+  - [Atualizar Despesas](https://developer.sankhya.com.br/reference/atualizarfinanceirodespesa.md): Endpoint `PUT /v1/financeiros/despesas/{codigoFinanceiro}` - Atualiza os dados financeiros de despesas cadastrados no SankhyaOM.
+  - [Realiza Baixa de Despesas](https://developer.sankhya.com.br/reference/baixarfinanceirodespesa.md): Realiza a baixa de um título financeiro. O campo dataBaixa é obrigatório. Caso codigoContaBancaria não seja informado: - se existir apenas uma conta válida, ela será utilizada automaticamente; - se…
+  - [Gerar PDF do Boleto](https://developer.sankhya.com.br/reference/downloadarquivofinanceiro.md): Endpoint `GET /v1/financeiros/{codigoFinanceiro}/boletos` - Gera e baixa o arquivo de um título financeiro de receita cadastrado no SankhyaOM. Atualmente o arquivo retornado é o boleto, em formato…
+- Fiscal
+  - [Importar Nota Fiscal de Serviço](https://developer.sankhya.com.br/reference/post_v1-fiscal-servicos-tomados-nfse.md): Disponível a partir da versão 4.32 do SankhyaOm, a API de Importação de Notas Fiscais de Serviços Tomados foi projetada para simplificar e automatizar o processo de importação de notas fiscais…
+  - [Calcular Impostos em Vendas](https://developer.sankhya.com.br/reference/post_v1-fiscal-impostos-calculo.md): Este endpoint calcula os impostos incidentes sobre uma operação de venda. Com base nos dados fornecidos, como empresa, cliente, produtos e despesas acessórias, a API retorna os valores calculados,…
+- HCM Cadastros
+  - [Lista de Cargos](https://developer.sankhya.com.br/reference/get_v1-pessoal-cargos.md): Retorna uma lista de Cargos, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.81.0**
+  - [Lista de Sindicatos](https://developer.sankhya.com.br/reference/get_v1-pessoal-sindicatos.md): Retorna uma lista de Sindicatos, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista todas as cargas horárias](https://developer.sankhya.com.br/reference/get_v1-pessoal-identificacao-carga-horaria.md): Retorna todos os registros de Identificação de Carga Horária.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Criar uma nova requisição de admissão](https://developer.sankhya.com.br/reference/post_v2-funcionarios-admissao.md): Este endpoint permite o registro de uma nova requisição de admissão, incluindo informações detalhadas sobre o trabalhador, seu cargo, categoria, dados contratuais e cadastrais.    Versão mínima do…
+  - [Cargo específico](https://developer.sankhya.com.br/reference/get_v1-pessoal-cargos-codigocargo.md): Retorna um Cargo específico com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Buscar detalhes de uma requisição de admissão](https://developer.sankhya.com.br/reference/get_v2-funcionarios-admissao-codigorequisicaoadmissao.md): Este endpoint permite buscar os detalhes de uma requisição de admissão existente.    Versão mínima do módulo pessoal: **5.125.0**
+  - [Sindicato específico](https://developer.sankhya.com.br/reference/get_v1-pessoal-sindicatos-codigosindicato.md): Retorna um Sindicato específico com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de Funções](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcoes.md): Retorna uma lista de Funções, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Lista de Faltas](https://developer.sankhya.com.br/reference/get_v1-pessoal-faltas.md): Retorna uma lista de Faltas, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Função específica](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcoes-codigofuncao.md): Retorna uma Função específica com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Lista de Departamentos](https://developer.sankhya.com.br/reference/get_v1-pessoal-departamentos.md): Retorna uma lista de Departamentos, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Lista de Atrasos](https://developer.sankhya.com.br/reference/get_v1-pessoal-atrasos.md): Retorna uma lista de Atrasos, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Departamento específico](https://developer.sankhya.com.br/reference/get_v1-pessoal-departamentos-codigodepartamento.md): Retorna um Departamento específico com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Lista de Locais de Trabalho](https://developer.sankhya.com.br/reference/get_v1-pessoal-locais-ponto.md): Retorna uma lista de Locais De Trabalho, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Registro de todas as cargas horárias](https://developer.sankhya.com.br/reference/get_v1-pessoal-carga-horaria.md): Retorna todos os registros de cargas horárias.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Local De Trabalho específico](https://developer.sankhya.com.br/reference/get_v1-pessoal-locais-ponto-codigolocalponto.md): Retorna um Local De Trabalho específico com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.48.0**
+  - [Registro de todas as cargas horárias históricas](https://developer.sankhya.com.br/reference/get_v1-pessoal-carga-horaria-historica.md): Retorna todos os registros de cargas horárias históricas.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de Histórico de ocorrências](https://developer.sankhya.com.br/reference/get_v1-pessoal-historicos-ocorrencia.md): Retorna uma lista de Histórico de ocorrências, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.50.0**
+  - [Histórico ocorrência espécífico](https://developer.sankhya.com.br/reference/get_v1-pessoal-historicos-ocorrencia-codigohistoricoocorrencia.md): Retorna um Histórico ocorrência específico com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.50.0**
+  - [Identificação Carga Horária Específica](https://developer.sankhya.com.br/reference/get_v1-pessoal-identificacao-carga-horaria-codigocargahoraria.md): Retorna um Cargo específico com base no parâmetro enviado na requisição.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Registro de todas as férias](https://developer.sankhya.com.br/reference/get_v1-pessoal-ferias.md): Retorna todos os registros de férias.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Registro de todas as ocorrências](https://developer.sankhya.com.br/reference/get_v1-pessoal-ocorrencias.md): Retorna todos os registros de ocorrência.    Versão mínima do módulo pessoal: **5.50.0**
+  - [Registro de todos os movimentos](https://developer.sankhya.com.br/reference/get_v1-pessoal-movimentos.md): Retorna todos os registros de movimentos.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de Empresas](https://developer.sankhya.com.br/reference/get_v1-pessoal-empresas.md): Retorna uma lista de Empresas, com paginação, cadastradas no SankhyaOM.     Versão mínima do módulo pessoal: **5.54.0**
+  - [Empresa específica](https://developer.sankhya.com.br/reference/get_v1-pessoal-empresas-codigoempresa.md): Retorna uma empresa específica com base no parâmetro enviado na requisição.     Versão mínima do módulo pessoal: **5.54.0**
+  - [Lista de Tomadores](https://developer.sankhya.com.br/reference/get_v1-pessoal-tomadores.md): Retorna uma lista de Tomadores, com paginação, cadastradas no SankhyaOM.     Versão mínima do módulo pessoal: **5.55.0**
+  - [Criar uma nova requisição de férias](https://developer.sankhya.com.br/reference/post_v1-pessoal-funcionarios-requisicoes-ferias.md): Este endpoint permite o registro de uma nova requisição de férias de um funcionário. O processo é realizado em duas etapas internas: validação dos campos e período aquisitivo, seguida do lançamento…
+  - [Buscar detalhes de uma requisição de férias](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-requisicoes-ferias-codigosolicitacao.md): Este endpoint permite buscar os detalhes de uma requisição de férias existente pelo seu código de solicitação, retornado na criação da mesma.    Versão mínima do módulo pessoal: **a definir**
+  - [Consultar períodos aquisitivos de férias](https://developer.sankhya.com.br/reference/get_v1-pessoal-periodos-aquisitivos-ferias.md): Retorna os períodos aquisitivos de férias **não gozados** cadastrados no SankhyaOm. Um período não gozado pode ter saldo de dias igual a zero. Por padrão, esses períodos com saldo zerado também não…
+  - [Listar metadados dos campos adicionais disponíveis para a Requisição de Admissão](https://developer.sankhya.com.br/reference/get_v1-funcionarios-metadados-campos-adicionais.md): Este endpoint retorna o catálogo de campos adicionais (personalizados) cadastrados na entidade Funcionário e válidos para uso na Requisição de Admissão — nome, tipo de dado, obrigatoriedade, tamanho…
+- HCM Funcionários
+  - [Criar uma nova requisição de admissão](https://developer.sankhya.com.br/reference/post_v1-funcionarios-admissao.md): Este endpoint permite o registro de uma nova requisição de admissão, incluindo informações detalhadas sobre o trabalhador, seu cargo, categoria, dados contratuais e cadastrais.
+  - [Lista os funcionários modificados](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios.md): Retorna uma lista de funcionários, com paginação, cadastrados no SankhyaOM. Permite filtrar por situação e/ou empresa.    Versão mínima do módulo pessoal: **5.76.0**
+  - [Buscar detalhes de uma requisição de admissão](https://developer.sankhya.com.br/reference/get_v1-funcionarios-admissao-codigorequisicaoadmissao.md): Este endpoint permite buscar os detalhes de uma requisição de admissão existente.
+  - [Retorna os dados completos de um funcionário em uma empresa](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresa-codigoempresa.md): Retorna os dados de um funcionário em uma empresa com base nos parâmetros enviados na requisição.    Versão mínima do módulo pessoal: **5.51.0**
+  - [Lista de registros de Faltas de um determinado funcionário e empresa.](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-faltas.md): Retorna uma lista de Registros de Faltas, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de registros de Atrasos de um determinado funcionário e empresa.](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-atrasos.md): Retorna uma lista de Registros de Atrasos, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de Registros de Tomadores de um determinado funcionário e empresa](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-tomadores.md): Retorna uma lista de Registros de Tomadores, com paginação, cadastradas no SankhyaOM.     Versão mínima do módulo pessoal: **5.55.0**
+  - [Lista de Registros de carga horária histórica de um determinado funcionário e empresa](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-carga-horaria-historica.md): Retorna uma lista de carga horária histórica, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de Registros de Ocorrência de um determinado funcionário e empresa](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-ocorrencias.md): Retorna uma lista de Registros de Ocorrência, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.50.0**
+  - [Lista de Registros de Férias de um determinado funcionário e empresa](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-ferias.md): Retorna uma lista de Registros de Férias, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Lista de Registros de Movimentos de um determinado funcionário e empresa](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-movimentos.md): Retorna uma lista de Registros de Movimentos, com paginação, cadastradas no SankhyaOM.    Versão mínima do módulo pessoal: **5.53.0**
+  - [Atualiza recibos eSocial SST do Funcionário](https://developer.sankhya.com.br/reference/put_v1-pessoal-funcionarios-codigofuncionario-empresa-codigoempresa-recibos-esocial.md): Recebe, valida e persiste recibos e datas dos eventos SST do eSocial (S-2210, S-2220, S-2221, S-2240) para um funcionário/empresa.  Observações: - Cada evento enviado deve conter os três campos:…
+  - [Cria um novo funcionário](https://developer.sankhya.com.br/reference/post_v1-pessoal-funcionarios.md): Cria um novo funcionário diretamente no SankhyaOM, sem necessidade de fluxo de requisição de admissão prévia.  O código do funcionário e a matrícula são gerados automaticamente por padrão. Para…
+  - [Lista os funcionários com dados detalhados](https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-detalhados.md): Retorna uma lista paginada de funcionários com dados completos do cadastro: dados pessoais, documentos, endereço, dados contratuais (jornada, remuneração, lotação, ponto, sindicato, provisões), FGTS,…
+- HCM Integrações
+  - [Consulta Inconsistências de integração](https://developer.sankhya.com.br/reference/get_v1-pessoal-inconsistencias.md): Retorna a lista de Inconsistências identificadas nas rotinas de integração HCM.  A resposta inclui o array `results` com as Inconsistências encontradas.
+- Logística
+  - [Retornar lista de motoristas](https://developer.sankhya.com.br/reference/getmotoristas.md): Permite acessar a lista de motoristas cadastrados no ERP.
+  - [Incluir motorista](https://developer.sankhya.com.br/reference/postmotorista.md): Permite incluir um motorista no ERP.
+  - [Consultar um motorista pelo código](https://developer.sankhya.com.br/reference/getmotoristabyid.md): Retorna os dados de um motorista específico.
+  - [Atualizar um motorista existente](https://developer.sankhya.com.br/reference/putmotorista.md): Permite atualizar os dados de um motorista específico pelo seu código.
+  - [Retornar lista de Ordens de Carga](https://developer.sankhya.com.br/reference/getordenscarga.md): Permite acessar a lista de Ordens de Carga cadastradas no ERP, com a possibilidade de filtrar por empresa.
+  - [Incluir uma nova Ordem de Carga](https://developer.sankhya.com.br/reference/postordemcarga.md): Permite incluir uma nova Ordem de Carga no ERP.
+  - [Consultar uma Ordem de Carga específica](https://developer.sankhya.com.br/reference/getordemcargaporcodigo.md): Retorna os dados de uma única Ordem de Carga a partir do seu código e do código da empresa.
+  - [Atualizar uma Ordem de Carga existente](https://developer.sankhya.com.br/reference/putordemcarga.md): Permite a atualização completa dos dados de uma Ordem de Carga  a partir do seu código de identificação e do código da empresa.
+  - [Retornar lista de transportadoras](https://developer.sankhya.com.br/reference/gettransportadoras.md): Permite acessar a lista de transportadoras cadastradas no ERP.
+  - [Incluir transportadora](https://developer.sankhya.com.br/reference/posttransportadora.md): Permite incluir uma transportadora no ERP.
+  - [Consultar uma transportadora pelo código](https://developer.sankhya.com.br/reference/gettransportadorabyid.md): Retorna os dados de uma transportadora específica.
+  - [Atualizar uma transportadora existente](https://developer.sankhya.com.br/reference/puttransportadora.md): Permite atualizar os dados de uma transportadora específica pelo seu código.
+  - [Consultar Pedidos da Ordem de Carga (Lista)](https://developer.sankhya.com.br/reference/getpedidosbyordemcarga.md): Retorna a lista de pedidos atualmente associados a uma Ordem de Carga específica.
+  - [Adicionar Pedidos à Ordem de Carga (Lista)](https://developer.sankhya.com.br/reference/addpedidostoordemcarga.md): Adiciona um pedido a uma Ordem de Carga existente.    **Regras para atualização de ordem de carga no pedido:**  * A Ordem de Carga deve estar com a situação Aberta.  * O pedido não pode estar…
+  - [Remover Pedido Específico da Ordem de Carga](https://developer.sankhya.com.br/reference/removepedidofromordemcarga.md): Remove um único pedido de uma Ordem de Carga existente, identificado pelo `codigoPedido` no path.    **Regras para atualização de ordem de carga no pedido:**  * A Ordem de Carga deve estar com a…
+  - [Consultar as Notas Fiscais de uma Ordem de Carga](https://developer.sankhya.com.br/reference/getnotasordemcarga.md): Retorna, de forma paginada, as Notas Fiscais e seus respectivos itens vinculados a uma Ordem de Carga específica.
+- Preços
+  - [Obter preços vinculados a um produto e uma tabela de preço](https://developer.sankhya.com.br/reference/getprecoprodutotabela.md): Este serviço retorna os preços do produto enviado no contexto e que estão associados à tabela de preços enviada no contexto. Pode haver mais de um preço, pois o produto pode ter volume alternativo,…
+  - [Obter preços vinculados a um produto independente da tabela de preço](https://developer.sankhya.com.br/reference/getprecoproduto.md): Este serviço retorna os preços do produto enviado no contexto, bem como as tabelas de preços nele relacionado. Vale ressaltar que cada produto x tabela de preços pode possuir mais de um preço, pois o…
+  - [Obter preços vinculados a um produto e uma tabela de preço](https://developer.sankhya.com.br/reference/getprecotabela.md): Este serviço retorna os preços de todos os produtos vinculados à tabela de preços enviada no contexto. Vale ressaltar que cada produto x tabela de preços pode possuir mais de um preço, pois o produto…
+  - [Obter preços de produtos de forma contextualizada](https://developer.sankhya.com.br/reference/getprecocontexto.md): Este serviço retorna os preços dos produtos de forma contextualizada, levando em conta as condições específicas de uma negociação. O preço pode variar com base em diversos fatores, como forma de…
+- Produtos
+  - [Lista de Produtos](https://developer.sankhya.com.br/reference/get_v1-produtos.md): Retorna uma lista de Produtos, com paginação, cadastradas no SankhyaOM.
+  - [Produto específico](https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto.md): Retorna um Produto específico com base no parâmetro enviado na requisição.
+  - [Componentes de um respectivo Produto](https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto-componentes.md): Retorna uma lista de Componentes que compõe um respectivo Produto, cadastradas no SankhyaOM.
+  - [Volumes de um respectivo Produto](https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto-volumes.md): Retorna uma lista de Volumes de um respectivo Produto, com paginação, cadastrados no SankhyaOM.
+  - [Produtos Alternativos de um respectivo Produto](https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto-alternativos.md): Retorna uma lista de Produtos Alternativos de um respectivo Produto, cadastradas no SankhyaOM.
+  - [Lista de Grupos de Produto](https://developer.sankhya.com.br/reference/get_v1-grupos-produto.md): Retorna uma lista de Grupos de Produto, com paginação, cadastradas no SankhyaOM.
+  - [Grupo de Produto específico](https://developer.sankhya.com.br/reference/get_v1-grupos-produto-codigogrupoproduto.md): Retorna um Grupo de Produto específico com base no parâmetro enviado na requisição.
+  - [Lista de Volumes de Produto](https://developer.sankhya.com.br/reference/get_v1-volumes-produtos.md): Retorna uma lista de Volumes, com paginação, cadastrados no SankhyaOM.
+  - [Volume específico](https://developer.sankhya.com.br/reference/get_v1-volumes-produtos-codigovolume.md): Retorna um Volume específico com base no parâmetro enviado na requisição.
+- Sugestões de Vendas
+  - [Consulta por Itens da cesta](https://developer.sankhya.com.br/reference/buscarrecomendacoesmarketbasket.md): Recebe a cesta de produtos do cliente via query params e retorna recomendações de produtos complementares ordenadas por relevância (score DESC, codigoProduto ASC). Produtos já presentes na cesta e…
+  - [Consulta por Perfil do cliente](https://developer.sankhya.com.br/reference/buscarrecomendacoesperfilcliente.md): Recebe o código do parceiro via query param e retorna recomendações de produtos baseadas no perfil de compra do agrupador ao qual o parceiro pertence. Quando não há agrupador vigente ou não há…
+- Vendas Pedidos
+  - [Incluir Pedido de Venda](https://developer.sankhya.com.br/reference/addpedido.md): Inclui um Pedido de Venda no Sankhya Om, SEMPRE A CONFIRMAR. Os financeiros que serão enviados não serão registrados como baixados, e sim pendentes. Obs.: a API não preve configurações de parceiro,…
+  - [Atualizar Pedido de Venda](https://developer.sankhya.com.br/reference/putpedido.md): A atualização de um Pedido de Venda já confirmado só é permitida se a TOP do pedido estiver configurada com a opção 'Permitir Alteração após Confirmar' ativada. Alem disto, na alteração de pedido,…
+  - [Cancela Pedido de Venda](https://developer.sankhya.com.br/reference/postcancelapedido.md): Cancela um Pedido de Venda disponível do Sankhya Om. Obs.: Pedidos faturados não serão cancelados. - Versão mínima requirida do Sankhya Om para utilizar essa API: 4.34
+  - [Consultar Pedidos de Venda](https://developer.sankhya.com.br/reference/getpedidos.md)
+  - [Consultar Pedido de Venda por Código](https://developer.sankhya.com.br/reference/getpedidovendaporcodigo.md): Consulta um pedido de venda específico retornando todos os dados do pedido confirmado.
+- Vendas CF-e/SAT
+  - [Incluir Cupom Fiscal eletronico](https://developer.sankhya.com.br/reference/addcfesat.md): Inclui um Cupom Fiscal eletronico modelo 59 emitido em um PDV externo.
+  - [Cancela Cupom Fiscal eletronico](https://developer.sankhya.com.br/reference/cancelacfesat.md): Cancela um Cupom Fiscal eletronico modelo 59 emitido em um PDV externo.
+  - [Inutiliza Numeração de Cupom Fiscal eletronico](https://developer.sankhya.com.br/reference/inutilizacfesat.md): Inutiliza Numeração de Cupom Fiscal eletronico modelo 59 emitido em um PDV externo.
+- Vendas NFC-e
+  - [Incluir Nota Fiscal de Consumidor eletronico](https://developer.sankhya.com.br/reference/addnfce.md): Inclui uma Nota Fiscal de Consumidor eletronico modelo 65 emitido em um PDV externo.
+  - [Autoriza Nota Fiscal de Consumidor eletronico que está em contigência](https://developer.sankhya.com.br/reference/autorizacfesat.md): Autoriza um Nota Fiscal de Consumidor eletronico modelo 59 emitido em um PDV externo que está armazenado no SankhyaOm. É importante ressaltar que a NFC-e deve ter sido previamente emitida em modo…
+  - [Cancela Nota Fiscal de Consumidor eletronico](https://developer.sankhya.com.br/reference/cancelanfce.md): Cancela uma Nota Fiscal de Consumidor eletronico modelo 65 emitido em um PDV externo.
+  - [Inutiliza Numeração de Nota Fiscal de Consumidor eletronico](https://developer.sankhya.com.br/reference/inutilizanfce.md): Inutiliza Numeração de Nota Fiscal de Consumidor eletronico modelo 65 emitido em um PDV externo.
+- Vendas Gestão de Caixa
+  - [Registra a abertura do Caixa/PDV](https://developer.sankhya.com.br/reference/addabrecaixapdv.md): Este endpoint permite realizar a abertura de um Caixa/PDV no SankhyaOm. Para que o processo ocorra corretamente, o operador deve estar previamente vinculado ao cadastro do PDV no SankhyaOm.   É…
+  - [Busca o codigoCaixa aberto para o Caixa/PDV e Operador.](https://developer.sankhya.com.br/reference/getcaixaaberto.md): Retorna o codigoCaixa que está aberto para o critério enviado para consulta.
+  - [Registra o fechamento do Caixa/PDV](https://developer.sankhya.com.br/reference/addfechacaixapdv.md): Este serviço realiza o fechamento do Caixa/PDV que está aberto. Este processo permite enviar os valores transacionados no Caixa/PDV por "Tipo de Pagamento", isso irá apoiar no processo de Gestão de…
+  - [Registra sangria para um Caixa/PDV](https://developer.sankhya.com.br/reference/addsangriacaixapdv.md): Registra sagria para um Caixa/PDV.
+  - [Registra suprimento para um Caixa/PDV](https://developer.sankhya.com.br/reference/addsuprimentocaixapdv.md): Registra suprimento para um Caixa/PDV.
+  - [Registra recebimento para um Caixa/PDV](https://developer.sankhya.com.br/reference/addrecebimentocaixapdvinc.md): Registra recebimento para um Caixa/PDV.
+  - [Registra recebimento para um Caixa/PDV](https://developer.sankhya.com.br/reference/addrecebimentocaixapdvbaixa.md): Registra recebimento para um Caixa/PDV.
+- Vendas NF-e
+  - [Consultar Cabeçalho de Notas Fiscais (Modelo 55)](https://developer.sankhya.com.br/reference/getnfe.md): Retorna uma lista paginada apenas com os dados principais (cabeçalho) das Notas Fiscais modelo 55. Utiliza o formato padrão com descrições e objeto cliente.
+  - [Consulta Específica de Nota Fiscal Eletrônica (Detalhada)](https://developer.sankhya.com.br/reference/getnfebycodigo.md): Retorna a estrutura completa (Descrições, Cliente, Itens e Financeiro).
+  - [Obter PDF do DANFE](https://developer.sankhya.com.br/reference/getdanfebycodigonota.md): Retorna o arquivo PDF do DANFE de uma NF-e modelo 55 autorizada ou encerrada. O identificador `{codigoNota}` pode ser o NUNOTA (ID interno) ou a Chave de Acesso da NF-e (44 dígitos numéricos). O…
+  - [Inclusão de Nota Fiscal Completa](https://developer.sankhya.com.br/reference/postnfe.md): Importa uma NF-e própria (modelo 55) já autorizada externamente (ex.: Magis5, Mercado Livre Full), gravando diretamente Cabeçalho, Itens, Financeiro e, opcionalmente, o XML autorizado.  Restrições…
+  - [Consultar Notas de Devolução](https://developer.sankhya.com.br/reference/getnfedevolucoes.md): Retorna lista paginada de Notas Fiscais de Devolução (Modelo 55).
+  - [Consultar Notas de Retorno](https://developer.sankhya.com.br/reference/getnferetornos.md): Retorna lista paginada de Notas Fiscais modelo 55 com CFOPs de retorno/devolução (CONFAZ AJ003/22).
+  - [Consultar Notas de Remessa](https://developer.sankhya.com.br/reference/getnferemessas.md): Retorna lista paginada de Notas Fiscais modelo 55 com CFOPs de remessa (CONFAZ AJ003/22).
+  - [Consultar Notas Fiscais Canceladas](https://developer.sankhya.com.br/reference/getnfecanceladas.md): Retorna lista paginada de Notas Fiscais modelo 55 (venda) que possuem cancelamento registrado.
+
+## Documentação API: API Sankhya - Legada
+- Como consultar dados?
+  - [Consultas com loadRecords (para vários registros)](https://developer.sankhya.com.br/reference/get_loadrecords.md): <h1>Regras de negócio</h1> A API possui um serviço genérico para aplicar consultas em todas as Entidades disponíveis no ERP: <b>CRUDServiceProvider.loadRecords</b>. Por definição, uma entidade mapeia…
+  - [Consultas com loadRecord (para registro único)](https://developer.sankhya.com.br/reference/get_loadrecord.md): <h1>Regras de negócio</h1> A API possui um serviço genérico para aplicar consultas em todas as Entidades disponíveis no ERP: <b>CRUDServiceProvider.loadRecord</b> com o objetivo de obter 1 registro.…
+  - [Critérios em Consultas loadRecords](https://developer.sankhya.com.br/reference/get_criteriosloadrecords.md): Quando temos parâmetros variáveis, como é o caso da expressão aqui usada, devemos colocar um '?' onde o valor do parâmetro será injetado. Para cada '?' na expressão devemos ter um elemento…
+  - [Consultas com loadView (não tem paginação)](https://developer.sankhya.com.br/reference/get_loadview.md): A API disponibiliza o serviço loadView (CRUDServiceProvider.loadView) para realizar consulta em VIEWs.<br /> Existem algumas considerações importantes que devem ser levadas em consideração antes de…
+- Como incluir/alterar dados?
+  - [Incluir e Alterar Dados](https://developer.sankhya.com.br/reference/post_salve.md): <h1>Regras de negócio</h1>  Utilizando a API é possível realizar a inclusão, ou atualização, de dados no SankhyaOm. Para isso, utilizamos o serviço \"DatasetSP.save\". O mesmo serviço é utilizado…
+- Log de Alterações
+  - [Histórico de Alterações (LOG de Tabelas)](https://developer.sankhya.com.br/reference/get_logalteracoestabelas.md): <h1>Regras de negócio</h1>  Esse serviço permite consultar a data de alteração de um período específico que seja passado no campo dhAlter e entidades específicas passadas no campo Entidade. <br /><br…
+- Serviços Especialistas
+  - [Incluir Movimentos (pedidos, notas, etc)](https://developer.sankhya.com.br/reference/post_incluimovimentos.md): <h1>Regras de negócio</h1> O cadastro de pedidos no sistema, permite que você registre e gerencie o que foi vendido e precisa ser faturado e entregue indicando, para qual cliente ou parceiro, quais…
+  - [Incluir e Alterar Itens de Movimentos](https://developer.sankhya.com.br/reference/post_incaltitemmovimento.md): "<h1>Regras de negócio</h1> O objetivo é incluir no ERP um <b>pedido de venda</b> ou <b>pedido de compra</b> negociado, por exemplo em 01/01 para ser entregue em até 31/12, durante esse prazo de…
+  - [Excluir Itens de Movimentos](https://developer.sankhya.com.br/reference/post_excluiitemmovimento.md): <h1>Regras de negócio</h1> O objetivo é incluir um <b>pedido de  venda</b> ou <b>pedido de compra</b> negociado, por exemplo em 01/01 para ser entregue em até 31/12, durante esse prazo de negociação,…
+  - [Cancelamento de Movimentos](https://developer.sankhya.com.br/reference/post_cancelamovimento.md): <h1>Regras de negócio</h1> Para realizar o cancelamento de pedidos no ERP será necessário efetuar criação de um filtro para acessar os títulos que precisam ser cancelados e efetuar o preenchimento…
+  - [Faturamento de Movimentos](https://developer.sankhya.com.br/reference/post_faturamovimento.md): <h1>Regras de negócio</h1>  Para finalizar uma venda, o pedido de vendas precisa ser faturado, ou seja, transformado em nota fiscal ou Ordem de Entrega.<br /> O conceito prático de faturamento,…
+  - [Consulta de Preços](https://developer.sankhya.com.br/reference/get_precoproduto.md): <h1>Regras de negócio</h1>  Para realizar consulta “Tabela de Preço” no carregamento das regras/exceções da tabela de preço, o sistema irá trazer os registros de forma paginada, ou seja, os dados não…
+  - [Anexar Arquivos](https://developer.sankhya.com.br/reference/get_anexaarquivos.md): <h1>Anexando documentos em registros específicos</h1> A maioria das entidades do sistema permite anexar documentos em suas respectivas telas (ex.: cadastro de parceiros, cadastro de produtos, item da…
+
+## Recipes
+- [API Gateway - Login](https://developer.sankhya.com.br/recipes/api-gateway-login.md)
+- [API Gateway - Logout](https://developer.sankhya.com.br/recipes/api-gateway-logout.md)
+- [Customizações - Confirmar Nota](https://developer.sankhya.com.br/recipes/customizações-confirmar-nota.md)
+- [Customizações - Faturar Nota](https://developer.sankhya.com.br/recipes/customizações-faturar-nota.md)
+- [Jape - Buscar Coleção pelo Finder](https://developer.sankhya.com.br/recipes/jape-buscar-coleção-pelo-finder.md)
+- [Jape - Date to String](https://developer.sankhya.com.br/recipes/jape-date-to-string.md)
+- [Jape - NativeSQL](https://developer.sankhya.com.br/recipes/jape-nativesql.md)
+- [Jape - NativeSQLWithBatch](https://developer.sankhya.com.br/recipes/jape-nativesqlwithbatch-1.md)
+- [Jape - String to Timestamp](https://developer.sankhya.com.br/recipes/jape-string-to-timestamp.md)
+- [Jape - Transação automática](https://developer.sankhya.com.br/recipes/jape-transação-automática.md)
+- [Jape - Transação manual](https://developer.sankhya.com.br/recipes/jape-transação-manual.md)
+- [Japewrapper - Atualizar um registro PK](https://developer.sankhya.com.br/recipes/japewrapper-atualizar-um-registro-pk.md)
+- [Japewrapper - Buscar coleção pelo find](https://developer.sankhya.com.br/recipes/japewrapper-buscar-coleção-pelo-find.md)
+- [Japewrapper - Buscar um registro pela PK](https://developer.sankhya.com.br/recipes/japewrapper-buscar-um-registro-pela-pk.md)
+- [Japewrapper - Buscar um registro pelo find](https://developer.sankhya.com.br/recipes/japewrapper-buscar-um-registro-pelo-find.md)
+- [Japewrapper - Remover um registro pela PK](https://developer.sankhya.com.br/recipes/japewrapper-remover-um-registro-pela-pk.md)
+- [Japewrapper - Remover um registro pelo finder](https://developer.sankhya.com.br/recipes/japewrapper-remover-um-registro-pelo-finder.md)
+- [Japewrapper - Salvar um registro](https://developer.sankhya.com.br/recipes/japewrapper-salvar-um-registro.md)
+- [Snippet Java- Chamando uma procedure do JAVA](https://developer.sankhya.com.br/recipes/snippet-java-chamando-uma-procedure-do-java.md)
+- [Snippet Java- Gerar LOG Exception](https://developer.sankhya.com.br/recipes/snippet-java-gerar-log-exception.md)
+
+## Últimas Novidades
+- [Lançada nova versão do SDK (2.3.0)](https://developer.sankhya.com.br/changelog/lançada-nova-versão-do-sdk-230.md)
+- [Novas APIs com padrão REST](https://developer.sankhya.com.br/changelog/novas-apis.md)
+- [Lançado nova versão do SDK (2.2.0)](https://developer.sankhya.com.br/changelog/lancado-nova-versao-do-sdk.md)
+- [Novo Fluxo de Autenticação com OAuth 2.0](https://developer.sankhya.com.br/changelog/novo-fluxo-de-autenticacao-com-oauth-20.md)
+- [Melhoria na experiência de gestão de versões de Add-ons](https://developer.sankhya.com.br/changelog/melhoria-na-experiência-de-gestão-de-versões-de-add-ons.md)
+- [Lançamento versão 2.0 Add-on Studio](https://developer.sankhya.com.br/changelog/lancamento-versao-20.md)
+- [Documentação do Add-on Studio Renovada! ✨](https://developer.sankhya.com.br/changelog/revisao-documentacao-addon-studio.md)
